@@ -440,7 +440,7 @@ hr {
   padding: 0px 10px;
 }
 
-#yourElement {
+#home-card-1 {
     background: url("http://elkinstitute.us/wp-content/uploads/2016/08/golf-shirts-elk-institute.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -451,7 +451,7 @@ hr {
 
 }
 
-#health {
+#home-card-2 {
   background: url("http://elkinstitute.us/wp-content/uploads/2016/08/not-big-fan-but-Joining-Forces-Obama-Biden-Joinig-Forces-group-1.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -462,7 +462,7 @@ hr {
 }
 /* https://cdn.pixabay.com/photo/2018/05/28/16/29/sport-3436358_1280.jpg */
 
-#knowledgecard {
+#home-card-3 {
   background: url("http://elkinstitute.us/wp-content/uploads/2016/08/Alaska-PJs.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -474,7 +474,7 @@ hr {
 
 }
 
-#waystogive {
+#home-card-4{
   background: url("../img/Ways-to-give-hands-1797401_960_720.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -484,8 +484,18 @@ hr {
   opacity: 0.90;
 
 }
+#home-card-5 {
+  background: url("http://elkinstitute.us/wp-content/uploads/2016/08/IMG_1042.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  opacity: 0.90;
+}
 
-#shoptosupport {
+
+#home-card-6 {
   background: url("../img/shoptosupport.jpg") no-repeat center center;
   -webkit-background-size: auto;
   -moz-background-size: auto;
@@ -496,6 +506,38 @@ hr {
   border-style: groove;
 
 }
+#home-card-7 {
+  background: url("../img/shoptosupport.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+  height: 400px;
+  opacity: 0.90;
+  border-style: groove;
+
+}
+#home-card-8 {
+  background: url("../img/military-652355_1280.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+
+  opacity: 0.90;
+}
+
+#home-card-9 {
+  background: url("../img/shoptosupport.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    opacity: 0.90;
+  }
+
 
 #sharecard {
   background: url("https://cdn.pixabay.com/photo/2017/08/30/18/46/veteran-2698167_960_720.jpg") no-repeat center center;
@@ -517,34 +559,9 @@ hr {
   opacity: 0.90;
 }
 
-#becomeamembercard {
-  background: url("../img/military-652355_1280.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 400px;
 
-  opacity: 0.90;
-}
-#golfclassiccard {
-  background: url("http://elkinstitute.us/wp-content/uploads/2016/08/IMG_1042.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 400px;
-  opacity: 0.90;
-}
-#giftregistrycard {
-  background: url("../img/shoptosupport.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 400px;
-  opacity: 0.90;
-}
+
+
 #corporatecard {
   background: url("https://photos.prnewswire.com/prnfull/20151221/317654") no-repeat center center;
   -webkit-background-size: cover;
@@ -584,15 +601,7 @@ hr {
   opacity: 0.90;
 }
 
-#foundationdinnercard {
-background: url("../img/shoptosupport.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 400px;
-  opacity: 0.90;
-}
+
 /* #secondcardcontent {
   text-align: end;
   position: relative;
