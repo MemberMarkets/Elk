@@ -33,17 +33,20 @@
     <div class="jumbotron jumbotron-fluid">
       <div class="container" id="jumbotron-w">
         <div class="row">
-          <div class="col-lg-3">
-            <a href="index.html"><img src="img/loflogo-r.png" width="100%" hieght="100%"
+          <div class="col-lg-8" id="elk-logo">
+            <a href="index.html"><img class="img-fluid" src="img/The-Elk-Institute-e1471357894403.jpg"
                 title="Land of the Free Foundation Logo" alt="Land of the Free Foundation Logo"></a>
           </div>
-          <div class="col-lg-9">
+          <div class="col-lg-4">
             <section class="donate">
-              <a href="https://landofthefreefoundation.store/customer/account/create/" aria-label="Link to create a Land of the Free Foundation store account" target="_blank" rel="noopener"><button
-                  type="button" class="btn-lg btn-primary" id="header-button">Become A Member</button></a>
+              <a href="https://landofthefreefoundation.store/customer/account/create/"
+                aria-label="Link to create a Land of the Free Foundation store account" target="_blank"
+                rel="noopener"><button type="button" class="btn-lg btn-primary" id="header-button">Become A
+                  Member</button></a>
 
-              <a href="https://securepayment.link/landofthefreefoundation/" aria-label="Land of the Free Foundation donate page" target="_blank" rel="noopener"><button type="button"
-                  class="btn-lg btn-danger" id="header-button">Donate Now</button></a>
+              <a href="https://securepayment.link/landofthefreefoundation/"
+                aria-label="Land of the Free Foundation donate page" target="_blank" rel="noopener"><button
+                  type="button" class="btn-lg btn-danger" id="header-button">Donate Now</button></a>
           </div>
           </section>
         </div>
@@ -95,7 +98,9 @@
 
     b {
       color: #fff;
+      font-size: 15px;
     }
+
     hr {
       background-color: darkgray;
     }
@@ -106,7 +111,8 @@
 
   <main>
 
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #16447a"> 
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: black;">
+      <!-- border-top: 2px solid rgb(66, 66, 66); border-bottom: 2px solid darkgrey; -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -116,7 +122,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link" href="how-we-help.html" id="navbarDropdown" role="button" aria-haspopup="true"
               aria-expanded="false">
-              <b>How We Help</b>
+              <b>ABOUT</b>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="servicepersonnelandfamily.html">Service Personnel & Family</a>
@@ -129,42 +135,33 @@
           <li class="nav-item dropdown">
             <a class="nav-link" href="changing-lives.html" id="navbarDropdown" role="button" aria-haspopup="true"
               aria-expanded="false">
-              <b>Changing Lives</b>
+              <b>TESTIMONIALS</b>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="testimonials.html">Testimonials</a>
               <a class="dropdown-item" href="tribute.html">Tributes</a>
             </div>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="#waystogivesection" id="navbarDropdown" role="button" aria-haspopup="true"
-              aria-expanded="false">
-              <b>Ways to Give</b>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="https://securepayment.link/landofthefreefoundation/" target="_blank" rel="noopener">Donate
-                Now</a>
-              <a class="dropdown-item" href="golf.html">Golf Classic</a>
-              <a class="dropdown-item" href="foundation-dinner.html">Foundation Dinner</a>
-              <a class="dropdown-item" href="https://membermarkets.com/landofthefreefoundation/customer/account/login/"
-                target="_blank" rel="noopener">Shop
-                to Support</a>
-              <a class="dropdown-item" href="gift.html">Gift & Support Registry</a>
-            </div>
-          </li>
+
           <li class="nav-item">
             <a class="nav-link" href="https://membermarkets.com/landofthefreefoundation/customer/account/login/"
-              id="navbarDropdown" target="_blank" role="button" rel="noopener"><b>Shop to Support</b>
+              id="navbarDropdown" target="_blank" role="button" rel="noopener"><b>MILITARY MINUTES</b>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="gift.html" id="navbarDropdown" role="button"><b>Gift Registry</b>
+            <a class="nav-link" href="gift.html" id="navbarDropdown" role="button"><b>NON MILITARY CLIENTS</b>
             </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="https://membermarkets.com/landofthefreefoundation/customer/account/login/"
+              id="navbarDropdown" target="_blank" role="button" rel="noopener"><b>SHOP TO SUPPORT</b>
+            </a>
+
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link" href="#newseventsandmedia" id="navbarDropdown" role="button" aria-haspopup="true"
               aria-expanded="false">
-              <b>News, Events & Media</b>
+              <b>CONTACT</b>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="news.html">News</a>
@@ -176,42 +173,48 @@
       </div>
     </nav>
 
-    <div class="container">
+    <section id="slider-bg">
+      <div class="container">
 
-      <br>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <br>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <!-- <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active" style="background-image: url('img/indexmainslide1.jpg')" id="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
+          <li data-target="#carouselExampleIndicators" data-slide-to="11"></li> -->
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active"
+              style="background-image: url('https://cdn.pixabay.com/photo/2017/01/30/02/20/mental-health-2019924_960_720.jpg')">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
             </div>
-          </div>
-          <div class="carousel-item" style="background-image: url('img/TheKid3-slider.jpg')">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-item"
+              style="background-image: url('https://cdn.pixabay.com/photo/2015/12/03/15/27/man-1075133_960_720.jpg')">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
             </div>
-          </div>
-          <div class="carousel-item" style="background-image: url('img/US-Air-Force-Grads.jpg')">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-item"
+              style="background-image: url('http://elkinstitute.us/wp-content/uploads/2016/08/IMG_4091.jpg')">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
             </div>
-          </div>
-          <div class="carousel-item" style="background-image: url('img/Johnny-Blye-salutes-1800.jpg')">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-item"
+              style="background-image: url('http://elkinstitute.us/wp-content/uploads/2016/08/IMG_8481.jpg')">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
             </div>
-          </div>
-          <div class="carousel-item" style="background-image: url('img/lof-marines-slider.jpg')">
+
+            <!-- <div class="carousel-item" style="background-image: url('img/lof-marines-slider.jpg')">
             <div class="carousel-caption d-none d-md-block">
             </div>
           </div>
@@ -243,40 +246,42 @@
           <div class="carousel-item" style="background-image: url('img/Army-Parachute-slider.jpg')">
             <div class="carousel-caption d-none d-md-block">
             </div>
+          </div> -->
+
           </div>
 
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
-    </div>
+      <br>
+    </section>
     <div class="container">
-      <h1 class="my-4" id="loftitle">When the Brave Come Home™</h1>
+      <h1 class="my-4" id="loftitle">About The Elk Institute</h1>
       <div class="row">
         <div class="col-lg-12">
           <p>
-            The Land of the Free Foundation supports the men and women in our Armed Forces whose sacrifice and
-            dedication have ensured our way of life. We are veterans of the US Armed Services who are uniquely
-            qualified to do the research to make sure the charities we support best serve the needs of our veterans, and
-            donations are not wasted on excessive administrative costs.
+            The Elk Institute for Psychological Health & Performance is a non profit 501(c)3 that was established to
+            provide individual and group education, consultation, treatment, and clinical research service to the
+            military and veteran community locally, nationally and internationally. The Elk Institute is based in Tampa,
+            Florida but provides remote on-site services around the globe.
             <br>
             </br>
-            The Land of the Free Foundation has established strict <a href="fundreq.html" style="color: #0000FF " aria-label="Learn more about the 
-            Charity Funding Requirements">Charity Funding
-              Requirements</a>
-            that hold our beneficiaries to the highest standards. And, we confirm compliance with these funding
-            requirements
-            prior to every donation. In addition, the Land of the Free Foundation is run totally by
-            volunteers. We do not take any salary­ or receive any benefits from your donations. 100% of all funds
-            donated to the Land of the Free Foundation go directly to the designated beneficiaries. All expenses of the
-            Foundation are paid by the Founders.
+            The Institute specializes in psychological trauma (PTS, PTSD) in the military population but is also
+            equipped to address general psychological health issues as well. We seek to identify the issues and
+            variables that compromise psychological health and performance and effective methods of eliminating barriers
+            or correcting such issues. The goal is to reach, restore or surpass our patients’ optimal psychological
+            health and wellness, contributing to the overall effectiveness of their day-to-day performance.
+            <br>
+            </br>
+            The Institute provides services at no cost to the individual war fighter. We rely on your tax deductable
+            donations to continue to do so.
           </p>
 
         </div>
@@ -300,14 +305,14 @@
             <div class="card-image">
               <div class="view overlay hm-white-slight z-depth-1">
                 <div id="yourElement" alt="US Army Soldier holding child in arms"></div>
-                  <br>
+                <br>
 
-                  <div class="mask waves-effect"></div>
+                <div class="mask waves-effect"></div>
               </div>
             </div>
             <div class="card-content">
               <a href="servicepersonnelandfamily.html" alt="Link to Service Personnel and Family Page">
-                <h2>Service Personnel & Family</h2>
+                <h2>About The Elk Institute</h2>
               </a>
               <hr>
               <p>
@@ -334,7 +339,7 @@
             </div>
             <div class="card-content">
               <a href="health.html">
-                <h2>Mental & Physical Health</h2>
+                <h2>Testimonials</h2>
               </a>
               <hr>
               <p>
@@ -358,7 +363,7 @@
             </div>
             <div class="card-content">
               <a href="leadershipknowledge.html">
-                <h2>Leadership Knowledge & Experience</h2>
+                <h2>Military Minutes</h2>
               </a>
               <hr>
               <p>We support Education and career assistance programs that provides our veterans with the tools and
@@ -382,20 +387,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-
-
-          <br>
-          </br>
-
+          <div>
+            <br>
+          </div>
           <h1 class="my-4" id="our-mission-title">Our Mission</h1>
           <p>
 
-            The Land of the Free Foundation is committed to celebrating the men and women of the Armed Forces of the
-            United States, past, present and future. The foundation will support programs that help our armed service
-            personnel and their families and will ensure that the commitment of our nation's heroes will never be
-            taken
-            for granted and that all Americans recognize, because of the sacrifices of our armed service personnel, we
-            will always live in the "Land of the Free".
+            Restore or surpass our patients’ optimal psychological health and wellness, contributing to the overall
+            effectiveness of their day-to-day performance.
             <br>
             </br>
 
@@ -406,8 +405,10 @@
 
             <br>
           </div>
-          <img class="img-fluid" src="https://cdn.pixabay.com/photo/2015/03/05/04/56/military-659893_1280.jpg"
-            alt="Air Force Officer carring United States Flag">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QcSahkm_nLk"
+              title="TAPS Visting Mom" allowfullscreen></iframe>
+          </div>
           <div class="row">
 
           </div>
@@ -432,14 +433,18 @@
       <hr>
 
       <div class="col-lg-12">
-        <p>We are committed to providing the financial resources necessary to help our active duty personnel and their
-          families, and our veterans who are transitioning back into civilian life after their years of loyal service,
-          but we need your help.
+        <p>The Institute provides services at no cost to the individual war fighter. We rely on your tax deductable
+          donations to continue to do so.
+          In collaboration with other veteran service organizations, Dr. Elk and her colleagues have been able to reach
+          many more veterans and service members in need. The Institute is proud of these partnerships and grateful for
+          the support and valuable resources they provide.
           <br>
-          </br>
-          Whether you Donate Now, participate in Land of the Free Foundation fundraising events, or Shop to Support our
-          armed service personnel and their families, every dollar counts. Please join us in funding the programs that
-          can change the lives of those in need. And, we’ll make sure the monies you donate reaches them.</p>
+        </br>
+          The Elk Institute is guided by an impressive Advisory Board comprised of decorated veterans, senior active
+          duty service members, and dedicated patriots from the business community.
+          <br>
+        </br>
+      </p>
       </div>
 
       <br>
@@ -449,16 +454,18 @@
           <div class="secondcardrow">
             <div class="card-image">
               <div class="view overlay hm-white-slight z-depth-1">
-                <a href="https://securepayment.link/landofthefreefoundation/" aria-label="Land of the Free Foundation direct donation page" target="_blank" rel="noopener"> 
+                <a href="https://securepayment.link/landofthefreefoundation/"
+                  aria-label="Land of the Free Foundation direct donation page" target="_blank" rel="noopener">
                   <div id="waystogive" alt="Child hand holding adult hand"></div>
                 </a>
 
-                  <div class="mask waves-effect"></div>
+                <div class="mask waves-effect"></div>
               </div>
             </div>
             <div class="card-content">
               <br>
-              <a href="https://securepayment.link/landofthefreefoundation/" airia-label="LOTFF direct donation page" target="_blank" rel="noopener">
+              <a href="https://securepayment.link/landofthefreefoundation/" airia-label="LOTFF direct donation page"
+                target="_blank" rel="noopener">
                 <h2>Donate Now</h2>
               </a>
             </div>
@@ -469,18 +476,19 @@
           <div class="secondcardrow">
             <div class="card-image">
               <div class="view overlay hm-white-slight z-depth-1">
-                <a href="golf.html" aria-label="Learn more about the LOTFF Golf Classic" alt="Pacific Palms Hotel golf course with Land of the Free Foundation Logo"
-                  target="_blank">
+                <a href="golf.html" aria-label="Learn more about the LOTFF Golf Classic"
+                  alt="Pacific Palms Hotel golf course with Land of the Free Foundation Logo" target="_blank">
                   <div id="golfclassiccard"></div>
                 </a>
 
-                  <div class="mask waves-effect"></div>
+                <div class="mask waves-effect"></div>
               </div>
             </div>
             <div class="card-content">
               <br>
-              <a href="golf.html" aria-label="Read more about the Land of the Free Foundation Golf Classic" target="_blank">
-                <h2>Golf Classic</h2>
+              <a href="golf.html" aria-label="Read more about the Land of the Free Foundation Golf Classic"
+                target="_blank">
+                <h2>Institute Events</h2>
               </a>
 
             </div>
@@ -495,13 +503,14 @@
                   <div id="foundationdinnercard"></div>
                 </a>
 
-                  <div class="mask waves-effect"></div>
+                <div class="mask waves-effect"></div>
               </div>
             </div>
             <div class="card-content">
               <br>
-              <a href="foundation-dinner.html" aria-label="Read more about the Land of the Free Foundation Dinner" target="_blank">
-                <h2>Foundation Dinner</h2>
+              <a href="foundation-dinner.html" aria-label="Read more about the Land of the Free Foundation Dinner"
+                target="_blank">
+                <h2>Institute Dinner</h2>
               </a>
 
             </div>
@@ -516,20 +525,23 @@
           <div class="secondcardrow">
             <div class="card-image">
               <div class="view overlay hm-white-slight z-depth-1">
-                <a href="https://membermarkets.com/landofthefreefoundation/customer/account/login/" aria-label="LOTFF Store Login" target="_blank" rel="noopener">
+                <a href="https://membermarkets.com/landofthefreefoundation/customer/account/login/"
+                  aria-label="LOTFF Store Login" target="_blank" rel="noopener">
                   <div id="shoptosupport"></div>
                 </a>
-                  <div class="mask waves-effect"></div>
+                <div class="mask waves-effect"></div>
               </div>
             </div>
             <div class="card-content">
               <br>
-              <a href="https://membermarkets.com/landofthefreefoundation/customer/account/login/" aria-label="LOTFF Store Login" target="_blank" rel="noopener">
+              <a href="https://membermarkets.com/landofthefreefoundation/customer/account/login/"
+                aria-label="LOTFF Store Login" target="_blank" rel="noopener">
                 <h2>Shop To Support</h2>
               </a>
               <p>Already a Member?
-                <a href="https://membermarkets.com/landofthefreefoundation/customer/account/login/" aria-label="LOTFF Store Customer Login"
-                class="btn-lg btn-danger" target="_blank" role="button" rel="noopener">Sign In</a>
+                <a href="https://membermarkets.com/landofthefreefoundation/customer/account/login/"
+                  aria-label="LOTFF Store Customer Login" class="btn-lg btn-danger" target="_blank" role="button"
+                  rel="noopener">Sign In</a>
               </p>
             </div>
           </div>
@@ -539,20 +551,23 @@
           <div class="secondcardrow">
             <div class="card-image">
               <div class="view overlay hm-white-slight z-depth-1">
-                <a href="https://landofthefreefoundation.store/customer/account/create/" aria-label="LOTFF Store create account" target="_blank" rel="noopener">
+                <a href="https://landofthefreefoundation.store/customer/account/create/"
+                  aria-label="LOTFF Store create account" target="_blank" rel="noopener">
                   <div id="becomeamembercard"></div>
                 </a>
 
-                  <div class="mask waves-effect"></div>
+                <div class="mask waves-effect"></div>
               </div>
             </div>
             <div class="card-content">
               <br>
-              <a href="https://landofthefreefoundation.store/customer/account/create/" aria-label="LOTFF Store create account link 2" target="_blank" rel="noopener">
+              <a href="https://landofthefreefoundation.store/customer/account/create/"
+                aria-label="LOTFF Store create account link 2" target="_blank" rel="noopener">
                 <h2>Become a Member</h2>
               </a>
-              <a href="https://landofthefreefoundation.store/customer/account/create/" aria-label="LOTFF Store create account link 3" 
-              class="btn-lg btn-primary"  target="_blank" role="button" rel="noopener">Create an account</a>
+              <a href="https://landofthefreefoundation.store/customer/account/create/"
+                aria-label="LOTFF Store create account link 3" class="btn-lg btn-primary" target="_blank" role="button"
+                rel="noopener">Create an account</a>
 
             </div>
           </div>
@@ -566,8 +581,8 @@
                   <div id="giftregistrycard"></div>
                 </a>
 
-                  <div class="mask waves-effect"></div>
-                
+                <div class="mask waves-effect"></div>
+
               </div>
             </div>
             <div class="card-content">
@@ -596,21 +611,26 @@
           <div class="col-lg-6">
             <br>
             <br>
-            <img class="img-fluid" src="img/2019-Float-Carroll-TAPS.jpg" alt="Carrol Float T.A.P.S testimonial">
+            <img class="img-fluid" src="http://elkinstitute.us/wp-content/uploads/2016/10/JA-07.jpg"
+              alt="Carrol Float T.A.P.S testimonial">
           </div>
           <div class="col-lg-6">
             <br>
             <br>
             <p>
-              “The Land of the Free Foundation truly honors America's Fallen Heroes by caring for all those who they
-              have loved and left behind through support to the Tragedy Assistance Program for Survivors (TAPS). Funds
-              raised directly impact the lives of grieving widows, children, parents and siblings, giving them a chance
-              to find hope and healing.”
+              "Being a senior member of SOF I have always “powered through”. I powered through BUD/S, earned my Trident
+              and deployed many times. In 2002 I experienced a traumatic event in combat and was never able to sleep or
+              relax. I simply powered through.
               <br>
               </br>
-              Bonnie Carroll
+              After hearing Dr. Elk speak, I felt like she had just read my bio, I realized I suffered from PTSD and
+              even though I was very nervous I scheduled a session. After ONE session I slept soundly for the first time
+              in over 10 years and continue to do so ever since. I highly recommend that anyone who feels that they
+              suffer from PTSD speak with Dr. Elk and get the help you need don’t just “power through”."
+              <br>
               </br>
-              T.A.P.S
+              Navy Special Forces, Senior Operator
+              </br>
             </p>
           </div>
         </div>
@@ -628,23 +648,20 @@
       <div class="container">
         <hr>
 
-        <h1 class="my-4" id="news-events-media"><a href="news.html">News</a>, <a href="events.html">Events</a><a
-            href="media.html"> & Media</a></h1>
+        <h1 class="my-4" id="news-events-media"><a href="news.html">News</a><a href="media.html"> & Media</a></h1>
 
         <div class="row">
           <div class="col-lg-6">
             <a href="golf.html">
-              <h2>Land of the Free Foundation</h2>
-              <h2>Veteran's Day Golf Classic</h2>
+              <h2>Rescuing the rescuers from the trauma of seeing buddies crash to their deaths</h2>
             </a>
-            <a href="https://securepayment.link/landofthefreefoundation/2019-golf-classic-online-registration/" aria-label="2019 golf classic online registration" rel="noopener">
-              <h2>Please Register Now</h2>
-            </a>
-            <p>Our Largest Fund Raising Event of the Year</p>
+
+            <p>Dr Elk trained one helicopter rescue crew at Patrick Air Force Base in dealing with the tragedy of seeing
+              another crew crash and die last month in Iraq.</p>
 
           </div>
           <div class="col-lg-6">
-            <img class="img-fluid" src="img/pacific-palms-lake.png" alt="Pacific Palms Golf Resort">
+            <img class="img-fluid" src="img/Dr-Elk-Rescuing-Rescuers.png" alt="Pacific Palms Golf Resort">
 
           </div>
         </div>
@@ -653,44 +670,36 @@
           <div class="col-lg-6">
             <a href="https://www.youtube.com/watch?v=h-Il1J1z6Ec" alt="PSA Visiting Mom Families Never Forget"
               target="_blank" rel="noopener">
-              <h2>#Families Never Forget</h2>
+              <h2>Dr Elk contributes to movies “Triggered” and “Triggered Too”</h2>
             </a>
-            <p>Let families grieving the death of a military loved one know they are not alone and not forgotten</p>
+            <p>Dr Carrie Elk and other leading experts are featured in Victor Marx’s documentaries about the impact of
+              trauma and PTSD on families and individuals.</p>
 
           </div>
           <div class="col-lg-6">
-            <div class="embed-responsive embed-responsive-16by9">
+            <!-- <div class="embed-responsive embed-responsive-16by9">
               <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/h-Il1J1z6Ec"
                 title="TAPS Visting Mom" allowfullscreen></iframe>
-            </div>
+            </div> -->
+            <img src="http://elkinstitute.us/wp-content/uploads/2018/04/triggered.jpeg" width="100%"
+              alt="Pacific Palms Golf Resort">
+
           </div>
         </div>
         <br>
         <div class="row">
           <div class="col-lg-6">
             <a href="#" aria-label="Link article">
-              <h2>Naval Academy Announces Color Company</h2>
+              <h2>Dr Elk featured on “Gr8 Inspirations”</h2>
             </a>
-            <p>The academy's annual Color Parade will be held on Worden Field, Thursday, May 23, at 11 a.m.</p>
+            <p>Dr Elk discusses how she has made it her mission to help veterans understand trauma and that their past
+              should inform them, not control them.</p>
 
           </div>
           <div class="col-lg-6">
-            <img class="img-fluid" src="img/US Navy Midshipmen Honor Robert_M._Gates.jpg" alt="Naval Academy Parade">
-
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-lg-6">
-            <a href="#">
-              <h2>Combat Casualty Assistance Visiting Nurse Program Transfers to the Semper Fi Fund</h2>
-            </a>
-            <p>The Navy-Marine Corps Relief Society (NMCRS) is pleased to announce...</p>
-
-          </div>
-          <div class="col-lg-6">
-            <img class="img-fluid" src="img/Semper Fi Fund and Americas Fund-Logo.jpg"
-              alt="Semper Fi Fund and Americas Fund Logo">
+            <img class="img-fluid"
+              src="http://elkinstitute.us/wp-content/uploads/2018/04/Screen-Shot-2018-04-25-at-12.16.40-AM-864x486.png"
+              alt="Naval Academy Parade">
 
           </div>
         </div>
@@ -710,7 +719,7 @@
   <footer>
     <div class="container-fluid" id="donatefoot">
       <div class="row">
-        <a class="btn btn-lg btn-danger btn-block" href="donate.html">WAYS TO
+        <a class="btn btn-lg btn-warning btn-block" href="donate.html">WAYS TO
           GIVE</a>
       </div>
     </div>
@@ -720,34 +729,30 @@
           <div class="col-sm-2" id="footlinks">
             <h5>About Us</h5>
             <ul>
-              <li><a href="mission.html">Our Mission</a></li>
-              <li><a href="sponsors.html">Major Sponsors</a></li>
-              <li><a href="beneficiaries.html">Beneficiaries</a></li>
+              <li><a href="mission.html">About The Elk Institute</a></li>
+              <li><a href="sponsors.html">About Dr. Carrie Elk</a></li>
               <li><a href="board.html">Board Of Directors</a></li>
             </ul>
           </div>
           <div class="col-sm-2" id="footlinks">
-            <h5>How We Help</h5>
-            <ul>
-              <li><a href="servicepersonnelandfamily.html">Service Personnel & Family</a></li>
-              <li><a href="health.html">Mental & Physical Health</a></li>
-              <li><a href="leadershipknowledge.html">Leadership Knowledge & Experience</a></li>
-              <li><a href="youth.html">Youth Programs</a></li>
-              <li><a href="veterans.html">Veterans Career Development</a></li>
-            </ul>
+            <h5>Testimonials</h5>
+
           </div>
           <div class="col-sm-2" id="footlinks">
-            <h5>Changing Lives</h5>
+            <h5>Media</h5>
             <ul>
-              <li><a href="testimonials.html">Testimonials</a></li>
-              <li><a href="tribute.html">Tributes</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="events.html">Video Gallery</a></li>
+              <li><a href="media.html">Photo Gallery</a></li>
+              <li><a href="media.html">Press Kit</a></li>
+
             </ul>
           </div>
           <div class="col-sm-2" id="footlinks">
             <h5>Shop to Support</h5>
             <ul>
-              <li><a href="https://membermarkets.com/landofthefreefoundation/customer/account/login/" 
-                  target="_blank" rel="noopener">Member Online Store</a></li>
+              <li><a href="https://membermarkets.com/landofthefreefoundation/customer/account/login/" target="_blank"
+                  rel="noopener">Member Online Store</a></li>
               <li><a href="membermarkets.html">Member Markets Info</a></li>
             </ul>
           </div>
@@ -755,8 +760,8 @@
             <h5>Ways to Give</h5>
             <ul>
               <li><a href="donate.html">Donate Now</a></li>
-              <li><a href="https://membermarkets.com/landofthefreefoundation/customer/account/login/"
-                  target="_blank" rel="noopener">Shop to Support</a></li>
+              <li><a href="https://membermarkets.com/landofthefreefoundation/customer/account/login/" target="_blank"
+                  rel="noopener">Shop to Support</a></li>
               <li><a href="golf.html">Golf Classic</a></li>
               <li><a href="gift.html">Gift Registry</a></li>
               <li><a href="foundation-dinner.html">Foundation Dinner</a></li>
@@ -777,9 +782,9 @@
               <div class="col-lg-6" id="footlinks">
                 <h5>Connect With Us</h5>
                 <div class="social-networks">
-                  <a href="#" aria-label="LOTFF Twitter" class="twitter" ><i class="fa fa-twitter"></i></a>
-                  <a href="https://www.facebook.com/LandoftheFreeFoundation/" aria-label="LOTFF Facebook" class="facebook" rel="noopener"><i
-                      class="fa fa-facebook"></i></a>
+                  <a href="#" aria-label="LOTFF Twitter" class="twitter"><i class="fa fa-twitter"></i></a>
+                  <a href="https://www.facebook.com/LandoftheFreeFoundation/" aria-label="LOTFF Facebook"
+                    class="facebook" rel="noopener"><i class="fa fa-facebook"></i></a>
                   <a href="#" aria-label="LOTFF google" class="google"><i class="fa fa-google-plus"></i></a>
                 </div>
               </div>

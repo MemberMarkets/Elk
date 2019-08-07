@@ -15,21 +15,45 @@ hr {
 }
 
 #jumbotron-w {
-  background-color: white;
+  background-color: black;
 
 }
 .jumbotron {
-  margin-top: 16px;
+  margin: 0px;
   padding: 0rem 0rem;
-  background-color: white;
+  background-color: black;
 
 }
 .jumbotron-fluid {
   padding-right: 0;
   padding-left: 0;
   border-radius: 0;
-  background-color: white;
-  background: white;
+  background-color: black;
+  background: black;
+}
+#elk-logo {
+  margin-top: 10px;
+}
+
+.donate {
+  float: right;
+  margin-top: 40px;
+
+}
+
+@media (max-width: 500px) {
+  .donate {
+    float: right ;
+    margin-right: 22px;
+    margin-top: 20px;
+  
+  }
+  #header-button {
+    font-size: 1rem;  
+  }
+}
+#slider-bg {
+  background-color: lightgrey;
 }
 .carousel-item {
   height: 450px;
@@ -103,23 +127,6 @@ hr {
   border: 0px solid rgba(0,0,0,.125); 
 }
 
-.donate {
-  float: right;
-  margin-top: 75px;
-
-}
-
-@media (max-width: 500px) {
-  .donate {
-    float: right ;
-    margin-right: 22px;
-    margin-top: 20px;
-  
-  }
-  #header-button {
-    font-size: 1rem;  
-  }
-}
 
 .dropdown-menu[x-placement^="top"], .dropdown-menu[x-placement^="right"], .dropdown-menu[x-placement^="bottom"], .dropdown-menu[x-placement^="left"] {
   right: auto;
@@ -427,7 +434,7 @@ hr {
 }
 
 #yourElement {
-    background: url("https://cdn.pixabay.com/photo/2014/07/03/20/24/dad-383207_1280.jpg") no-repeat center center;
+    background: url("http://elkinstitute.us/wp-content/uploads/2016/08/golf-shirts-elk-institute.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -438,7 +445,7 @@ hr {
 }
 
 #health {
-  background: url("../img/sport-3436358_1280.jpg") no-repeat center center;
+  background: url("http://elkinstitute.us/wp-content/uploads/2016/08/not-big-fan-but-Joining-Forces-Obama-Biden-Joinig-Forces-group-1.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -449,7 +456,7 @@ hr {
 /* https://cdn.pixabay.com/photo/2018/05/28/16/29/sport-3436358_1280.jpg */
 
 #knowledgecard {
-  background: url("https://cdn.pixabay.com/photo/2015/05/04/14/40/parade-752467_960_720.jpg") no-repeat center center;
+  background: url("http://elkinstitute.us/wp-content/uploads/2016/08/Alaska-PJs.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -510,10 +517,11 @@ hr {
   -o-background-size: cover;
   background-size: cover;
   height: 400px;
+
   opacity: 0.90;
 }
 #golfclassiccard {
-  background: url("../img/land-of-the-free-foundation-golf-classic-white-logo-copy.jpg") no-repeat center center;
+  background: url("http://elkinstitute.us/wp-content/uploads/2016/08/IMG_1042.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -522,7 +530,7 @@ hr {
   opacity: 0.90;
 }
 #giftregistrycard {
-  background: url("../img/people-2595862_1280.jpg") no-repeat center center;
+  background: url("../img/shoptosupport.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -570,7 +578,7 @@ hr {
 }
 
 #foundationdinnercard {
-background: url("../img/lofdinner.jpg") no-repeat center center;
+background: url("../img/shoptosupport.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
