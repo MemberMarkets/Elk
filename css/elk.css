@@ -62,6 +62,10 @@ hr {
 #slider-bg {
   background-color: lightgrey;
 }
+.alignleft {
+  float: left;
+  margin: 0.35em 2.15em 0.35em 0;
+}
 .carousel-item {
   height: 450px;
   min-height: 300px;
@@ -559,27 +563,16 @@ hr {
   opacity: 0.90;
 }
 
-
-
-
-#corporatecard {
-  background: url("https://photos.prnewswire.com/prnfull/20151221/317654") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 400px;
-  opacity: 0.90;
-
+.card-content-left {
+  text-align: left;
 }
-
 #roski {
-  background: url("../img/ed.jpg") no-repeat center center;
+  background: url("http://elkinstitute.us/wp-content/uploads/2018/08/Screen-Shot-2018-02-21-at-11.40.33-AM.png") no-repeat center center;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
-  height: 350px;
+  height: 300px;
   opacity: 0.90;
 }
 #valley{
