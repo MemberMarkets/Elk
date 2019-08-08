@@ -33,11 +33,14 @@ hr {
 }
 #elk-logo {
   margin-top: 10px;
+  margin-bottom: 10px;
+
 }
 
 .donate {
   float: right;
   margin-top: 40px;
+  margin-bottom: 10px;
 
 
 }
@@ -60,6 +63,9 @@ hr {
   }
 }
 #slider-bg {
+  background-color: lightgrey;
+}
+#h1-background{
   background-color: lightgrey;
 }
 .alignleft {
