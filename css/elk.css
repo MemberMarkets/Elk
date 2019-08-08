@@ -566,6 +566,7 @@ hr {
 .card-content-left {
   text-align: left;
 }
+
 #roski {
   background: url("http://elkinstitute.us/wp-content/uploads/2018/08/Screen-Shot-2018-02-21-at-11.40.33-AM.png") no-repeat center center;
   -webkit-background-size: contain;
@@ -575,22 +576,40 @@ hr {
   height: 300px;
   opacity: 0.90;
 }
-#valley{
-  background: url("http://www.majesticrealty.com/wp-content/uploads/15-Valley_Kent-Medium-251x341.jpg") no-repeat center center;
+#Raymond-Sterling {
+  background: url("http://elkinstitute.us/wp-content/uploads/2016/08/Ray1-e1462337403399.jpg") no-repeat center center;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
-  height: 350px;
+  height: 300px;
   opacity: 0.90;
 }
-#semcken {
-  background: url("http://www.majesticrealty.com/wp-content/uploads/15-Semcken_John1-251x341.jpg") no-repeat center center;
+#Shelley-Nelson {
+  background: url("http://elkinstitute.us/wp-content/uploads/2018/02/shelley-nelson.png") no-repeat center center;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
-  height: 350px;
+  height: 300px;
+  opacity: 0.90;
+}
+#Michael-Arnold {
+  background: url("http://elkinstitute.us/wp-content/uploads/2018/03/Elk-BOD-picture-2.png") no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  height: 300px;
+  opacity: 0.90;
+}
+#Jeff-Mellinger {
+  background: url("http://elkinstitute.us/wp-content/uploads/2018/02/mellinger.png") no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  height: 300px;
   opacity: 0.90;
 }
 
